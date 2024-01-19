@@ -1,0 +1,23 @@
+.foo-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+}
+
+.footer-items {
+  color: #6f7479;
+  text-decoration: none;
+  outline: none;
+  font-size: small;
+}
+.footer-items:hover {
+  text-decoration: underline;
+}

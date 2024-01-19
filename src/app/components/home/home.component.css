@@ -1,0 +1,128 @@
+.already-have-account,
+.policy {
+  color: #fff;
+}
+main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #000;
+}
+.main-content {
+  display: flex;
+  height: 100vh;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px 40px;
+}
+.card-2 {
+  width: 60%;
+}
+.card-2 > * {
+  width: 100%;
+}
+.heading {
+  color: white;
+  font-weight: 900;
+  font-size: 50pt;
+  margin-bottom: 60px;
+}
+.heading:nth-child(2) {
+  font-size: 25pt;
+}
+.signin-google {
+  background-color: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 11pt;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.create-account {
+  background-color: #1d9bf0;
+  color: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 11pt;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+.signin {
+  background-color: transparent;
+  color: #1d9bf0;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 11pt;
+  font-weight: 700;
+  border: 1px solid #536471;
+  cursor: pointer;
+  transition: all 100ms;
+}
+.signin:hover {
+  border-color: rgb(83, 100, 113);
+  background-color: rgba(29, 155, 240, 0.1);
+}
+.or-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #2f3336;
+  margin: 20px 7px;
+}
+.policy {
+  font-size: x-small;
+  color: #686d71;
+  margin-bottom: 50px;
+}
+.policy-blue {
+  color: #1a8edc;
+  cursor: pointer;
+}
+.policy-blue:hover {
+  text-decoration: underline;
+}
+
+.or {
+  color: #e4e6e7;
+}
+
+.already-have-account {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
